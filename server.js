@@ -11,7 +11,7 @@ const credencialesBD = {
     password: 'lFUHoYX083f6CFGXBuX',
     database: 'bwsbo1m8t8xdmhpi5f49'
 }
-app.set('port', process.env.PORT || 8080)
+app.set('port', process.env.PORT || 3000)
 
 //Middlewares
 app.use(coneccion(mysql, credencialesBD, 'single'))
